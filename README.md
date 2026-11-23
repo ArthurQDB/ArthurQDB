@@ -85,7 +85,7 @@
 
 <div align="center">
   <!-- GIF de Finalização (All-Out Attack) -->
-  <img src="https://tenor.com" width="520" alt="Joker All-Out Attack"/>
+  <img src="./assets/all-out-attack.gif" width="520" alt="Joker All-Out Attack"/>
   <br/>
   <sub><b>"THE SHOW'S OVER!"</b> — Obrigado por visitar meu esconderijo.</sub>
 </div>
