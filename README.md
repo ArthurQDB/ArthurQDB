@@ -4,7 +4,7 @@
 <div align="center">
 
   <!-- Banner Animado Dinâmico (Capsule Render) -->
-  <img src="assets/banner-p5.gif" alt="Banner"  style="width:500%; height:500%"/>
+  <img src="assets/banner-p5.png" alt="Banner"  style="width:100%; height:auto"/>
 
   <!-- Typing SVG com frases icônicas -->
   <a href="https://git.io">
