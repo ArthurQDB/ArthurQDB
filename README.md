@@ -4,7 +4,7 @@
 <div align="center">
 
   <!-- Banner Animado Dinâmico (Capsule Render) -->
-  <img src="https://vercel.app" width="100%" alt="Persona 5 Banner"/>
+  <img src="assets/images/Banner Persona.svg" alt="Banner"  style="width:100%; height:auto"/>
 
   <!-- Typing SVG com frases icônicas -->
   <a href="https://git.io">
