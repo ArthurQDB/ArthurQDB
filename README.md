@@ -76,9 +76,8 @@
 ## 🔥 `03 // ALL-OUT ATTACK (STATS)`
 
 <div align="center">
-  <!-- Substitua "SEU-USUARIO" pelo seu username real do GitHub -->
-  <img height="175" src="https://vercel.app" alt="GitHub Stats" />
-  <img height="175" src="https://vercel.app" alt="Top Languages" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=ArthurQDB&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurQDB&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
 <br/>
