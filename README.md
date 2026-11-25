@@ -8,7 +8,7 @@
 
   <!-- Typing SVG com frases icônicas -->
   <a href="https://git.io">
-    <img src="https://demolab.com!" alt="Typing SVG" />
+    <img src="persona5-typing.svg" alt="Typing SVG" />
   </a>
 
   <br/>
