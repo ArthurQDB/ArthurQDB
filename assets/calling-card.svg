@@ -1,38 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="850" height="280" viewBox="0 0 850 280" fill="none" xmlns="http://w3.org">
-  <style>
-    @keyframes float {
-      0%, 100% { transform: translateY(0px) rotate(-2deg); }
-      50% { transform: translateY(-5px) rotate(-1deg); }
-    }
-    @keyframes pulseStar {
-      0%, 100% { transform: scale(1) rotate(0deg); }
-      50% { transform: scale(1.12) rotate(8deg); }
-    }
-    @keyframes slideIn {
-      from { opacity: 0; transform: translateX(-20px); }
-      to { opacity: 1; transform: translateX(0); }
-    }
-    .card-group {
-      animation: float 4s ease-in-out infinite;
-      transform-origin: center;
-    }
-    .star-spin {
-      animation: pulseStar 3s ease-in-out infinite;
-      transform-origin: 730px 75px;
-    }
-    .title-text {
-      font-family: 'Impact', 'Arial Black', sans-serif;
-      font-weight: 900;
-      letter-spacing: 3px;
-      animation: slideIn 0.8s ease-out forwards;
-    }
-    .sub-text {
-      font-family: 'Courier New', monospace;
-      font-weight: bold;
-      letter-spacing: 2px;
-    }
-  </style>
-
   <!-- Fundo Vermelho Persona 5 -->
   <rect width="850" height="280" fill="#E60012"/>
 
@@ -41,38 +8,53 @@
   <polygon points="680,0 850,0 850,280 560,280" fill="#0D0D0D"/>
   <polygon points="340,0 375,0 235,280 200,280" fill="#0D0D0D"/>
 
-  <!-- Cartão Principal Central Inclinado -->
-  <g class="card-group">
+  <!-- Cartão Principal Central Inclinado com Flutuação Nativa -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; 0 -5; 0 0"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+
     <!-- Sombra Branca Deslocada -->
     <polygon points="115,42 745,28 730,248 95,235" fill="#FFFFFF"/>
     <!-- Base Preta do Cartão -->
     <polygon points="105,35 735,20 720,240 85,228" fill="#0D0D0D" stroke="#FFFFFF" stroke-width="4"/>
 
-    <!-- Tarja Vermelha Superior ("TAKE YOUR CODE / HEART") -->
+    <!-- Tarja Vermelha Superior -->
     <polygon points="120,52 440,42 430,85 112,92" fill="#E60012"/>
-    <text x="130" y="76" fill="#FFFFFF" font-size="22" class="title-text" transform="rotate(-1.5 130 76)">
+    <text x="130" y="76" fill="#FFFFFF" font-family="Impact, Arial Black, sans-serif" font-weight="900" font-size="22" letter-spacing="3" transform="rotate(-1.5 130 76)">
       TAKE YOUR HEART
     </text>
 
     <!-- Caixa Branca Estilo Recorte para o Seu Nome -->
     <polygon points="125,108 640,96 632,165 118,175" fill="#FFFFFF"/>
-    <text x="140" y="152" fill="#0D0D0D" font-size="44" class="title-text" transform="rotate(-1 140 152)">
-      SEU NOME AQUI
+    <text x="140" y="152" fill="#0D0D0D" font-family="Impact, Arial Black, sans-serif" font-weight="900" font-size="44" letter-spacing="3" transform="rotate(-1 140 152)">
+      ARTHUR QDB
     </text>
 
     <!-- Subtítulo / Cargo / Stack -->
     <polygon points="135,186 580,178 575,214 130,220" fill="#E60012"/>
-    <text x="148" y="206" fill="#FFFFFF" font-size="18" class="sub-text" transform="rotate(-0.8 148 206)">
+    <text x="148" y="206" fill="#FFFFFF" font-family="Courier New, monospace" font-weight="bold" font-size="18" letter-spacing="2" transform="rotate(-0.8 148 206)">
       &gt; FULL STACK DEVELOPER // PHANTOM DEV
     </text>
 
-    <!-- Estrela Icônica dos Phantom Thieves -->
-    <g class="star-spin">
+    <!-- Estrela Icônica dos Phantom Thieves com Pulso Nativo -->
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        values="0 730 75; 8 730 75; 0 730 75"
+        dur="3s"
+        repeatCount="indefinite"
+      />
       <polygon points="730,30 742,62 776,62 749,82 759,114 730,94 701,114 711,82 684,62 718,62" fill="#FFFFFF"/>
       <polygon points="730,38 739,63 766,63 744,79 752,104 730,88 708,104 716,79 694,63 721,63" fill="#E60012"/>
     </g>
 
-    <!-- Detalhe de Cartola / Máscara Minimalista no Canto Inferior -->
+    <!-- Detalhe de Máscara Minimalista no Canto Inferior -->
     <circle cx="660" cy="195" r="22" fill="#FFFFFF"/>
     <path d="M645 195 Q660 182 675 195 Q660 202 645 195 Z" fill="#0D0D0D"/>
     <circle cx="653" cy="194" r="2.5" fill="#E60012"/>
