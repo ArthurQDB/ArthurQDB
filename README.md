@@ -27,7 +27,7 @@
 <!-- ===================================================================== -->
 <!-- 🃏 SEÇÃO: CALLING CARD (SOBRE MIM / PROJETO)                          -->
 <!-- ===================================================================== -->
-<img align="right" width="320" src="https://tenor.com" alt="Persona 5 UI Animation"/>
+<img align="right" width="320" src="https://preview.redd.it/persona-5-ui-without-text-options-v0-pt7zklua36eb1.jpg?width=1080&crop=smart&auto=webp&s=301a9dba288b6e8f7559642b36bd119de18fae65" alt="Persona 5 UI Animation"/>
 
 ## 🎭 `01 // CALLING CARD`
 
