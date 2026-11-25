@@ -7,9 +7,10 @@
   <img src="assets/banner-p5.png" alt="Banner"  style="width:100%; height:auto"/>
 
   <!-- Typing SVG com frases icônicas -->
-  <a href="https://git.io">
-    <img src="persona5-typing.svg" alt="Typing SVG" />
-  </a>
+  <div align="center">
+  <img src="./calling-card.svg" alt="Persona 5 Calling Card" width="100%" />
+</div>
+
 
   <br/>
 
